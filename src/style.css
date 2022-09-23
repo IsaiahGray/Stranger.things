@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgb(197, 212, 223);
+}
+header{
+    background-color: azure;
+    border-radius: 25%;
+}
+
+logo{
+   display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: xx-large;
+    color: slateblue;
+    font-weight: bolder;
+    
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    align-items: center;
+    float: top;
+    
+    
+   
+   
+}
+nav :link{
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
+nav :link :hover{
+    color: black;
+}
+.posts {
+     display: flex;
+     flex-direction: column;
+     align-items:flex-start;
+    
+ }
+ .singlepost{
+     border: 6px solid black;
+ }
+ .register{
+     display: flex;
+     flex-direction: column;
+     height: 50px;
+     padding:10px ;
+     margin-left: 46em;
+     font-family: monospace;
+     font-weight: 500;
+ }
+ .login{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    padding:10px ;
+    margin-left: 46em;
+    font-family: monospace;
+    font-weight: 500;
+
+ }
+
+ .message{
+    width: 50rem;
+    height: 3rem;
+    max-width: 20rem;
+    white-space: normal;
+    word-wrap: break-word;
+ }
